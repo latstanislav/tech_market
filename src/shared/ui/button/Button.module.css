@@ -1,0 +1,90 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary {
+  background-color: #0066cc;
+  padding: 12px 24px;
+}
+
+.primary:hover {
+  background-color: #0052a3;
+}
+
+.primary:active {
+  background-color: #003d7a;
+}
+
+.primary:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.secondary {
+  background-color: #ffffff;
+  border: 2px solid #0066cc;
+  color: #0066cc;
+  padding: 12px 24px;
+}
+
+.secondary:hover {
+  border-color: #0052a3;
+  color: #0052a3;
+}
+
+.secondary:active {
+  border-color: #003d7a;
+  color: #003d7a;
+}
+
+.secondary:disabled {
+  border-color: #cccccc;
+  color: #cccccc;
+  cursor: not-allowed;
+}
+
+.tertiary {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: #333333;
+  padding: 12px 24px;
+}
+
+.tertiary:hover {
+  border-color: #cc0000;
+  color: #cc0000;
+}
+
+.tertiary:active {
+  border-color: #990000;
+  color: #990000;
+}
+
+.tertiary:disabled {
+  border-color: #cccccc;
+  color: #cccccc;
+  cursor: not-allowed;
+}
+
